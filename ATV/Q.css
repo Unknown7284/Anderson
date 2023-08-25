@@ -9,15 +9,34 @@
 .grid-template-columns-3 {
 	grid-template-columns: 1fr 2fr 1fr;
 }
-h1 {
-    text-align: center;
-	font-weight: normal;
-    color: rgb(0, 0, 0);
-    font-size: 1.25em;
+
+.subgrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
 }
+
+.subgrid > div {
+	background: rgba(22, 242, 250, 0.3);
+}
+
+/* Estilos Gerais */
 .item {
 	margin: 5px;
-	background: rgb(255, 0, 0);
+	background: rgb(236, 18, 189);
 	text-align: center;
 	font-size: 1.5em;
+}
+
+.grid {
+	max-width: 400px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.25em;
+	font-weight: normal;
+	color: blue;
 }
