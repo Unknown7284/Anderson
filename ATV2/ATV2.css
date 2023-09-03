@@ -7,7 +7,7 @@
   grid-template: 
   "logo nav nav" 
   "sidebar content content" 
-  "footer footer footer" / 12em ;
+  "footer footer footer" / 30em ;
 }
 .stretch{
   justify-content: stretch
