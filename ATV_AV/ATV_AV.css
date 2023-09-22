@@ -1,0 +1,41 @@
+.grid {
+	display: grid;
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    color: #001a5b;
+    justify-content:center;
+}
+.item {
+    border: 20px;
+    width: 25rem;
+    height: 25rem;
+    padding: 1%;
+}
+.footer{
+    grid-area: footer;
+    background-color: #003491;
+    text-align: center;
+    justify-items: center;
+    width: 100%;
+    height: 8rem;
+    color: white;
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color: #003491;
+    text-align: center;
+    justify-items: center;
+    width: 100%;
+    height: 8rem;
+    color: white;
+  }
+.nav{
+    grid-area: nav;
+  }
+.menu{
+    width:20rem;
+    height: 2rem;
+    font-size: 1.5em;
+}
